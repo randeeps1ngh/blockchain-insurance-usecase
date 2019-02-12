@@ -8,3 +8,5 @@
  */
 
 rootProject.name = "blockchain-insurance-usecase"
+include("backend")
+include ("ui")
