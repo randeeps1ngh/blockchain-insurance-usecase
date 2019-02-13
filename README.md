@@ -32,3 +32,5 @@ into a registered UK Account.
 a. Need a facility to amend the affect each question on the quote has on the price,
 such changes reflected in the Blockchain
 b. Need a facility to add complementary questions
+
+Swagger url: http://localhost:8080/your-app-root/swagger-ui.html

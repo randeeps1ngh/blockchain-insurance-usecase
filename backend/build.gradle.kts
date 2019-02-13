@@ -38,12 +38,17 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-noarg:${kotlinVersion}")
 
     implementation( "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}")
-    implementation ("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
+//    implementation ("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
     implementation ("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8")
     implementation ("org.springframework.cloud:spring-cloud-starter:${springCloudVersion}")
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation ("org.jetbrains.kotlin:kotlin-reflect")
     implementation ("com.h2database:h2")
+    implementation ("io.springfox:springfox-swagger2:2.9.2")
+    implementation ("io.springfox:springfox-swagger-ui:2.9.2")
+    implementation ("org.springframework.boot:spring-boot-starter-web")
+//    implementation ("org.springframework:spring-webmvc")
+//    runtimeOnly ("javax.servlet:javax.servlet-api:3.0.1")
     runtimeOnly ("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
     testImplementation ("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
 }

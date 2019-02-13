@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
-@RestController
+@RestController()
 class HomeController (val repository: QuoteRepository){
 
     @PutMapping("/quote")

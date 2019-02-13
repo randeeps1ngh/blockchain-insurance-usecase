@@ -6,7 +6,7 @@ package com.blockchain.insurance
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = arrayOf("com.blockchain.insurance"))
 class BlockChainInsuranceApp {
 
 }
